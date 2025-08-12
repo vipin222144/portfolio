@@ -1,0 +1,123 @@
+*{
+margin: 0px;
+}
+body{
+     background-color: aqua;
+}
+.contener{
+    background-color: blue;
+  display: flex;
+  height: 160px;
+}
+.a{
+  background-color: rgb(26, 42, 58);
+ width: 20%;
+ padding-left: 58px;
+}
+.ab{
+  background-color: rgb(26, 42, 58);
+  width: 80%;
+  color: aliceblue;
+  font-size: 30px;
+  text-align: justify;
+  padding-top: 50px;
+}
+img{
+  width: 150px;
+  padding: 5px;
+  padding-bottom: 5px;
+  border-radius: 100px;
+  
+}
+
+.contener2{
+background-color: chocolate;
+gap: ;
+display: flex;
+}
+.b{
+ background-color: #0c212c;
+  color: rgb(101, 150, 194);
+ width: 50%;
+ height: 540px;
+  padding-left: 100px;
+
+
+}
+   .btn {
+       padding: 10px 20px;
+       border-radius: 5px;
+      /* background: #ff4c60;*/
+          background:  #0e4b6b;
+       color: white;
+       text-decoration: none;
+
+   }
+     #a {
+       border-bottom: double pink;
+       font-size: 2em;
+       color: aliceblue;
+
+   }
+
+   #b {
+       color: aqua;
+       font-size: 2em;
+   }
+.c{
+ background-color: #0c212c;
+  color: rgb(101, 150, 194);
+ width: 50%;
+  height: 540px;
+   padding: 10p 50px;
+   padding-left: 200px;
+   
+}
+.d{
+ background-color: rgb(49, 44, 37);
+ width: 100%;
+  height: 30px;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* responsiv website*/
+     @media(max-width:600px) {
+            .contener2{
+                width: 100%;
+                background-color: rgb(43, 226, 125);
+                flex-direction: column;
+            }
+            .b{
+                width: 100%;
+                text-align: center;
+                height: auto;
+                padding: 0px;
+            }
+              .c{
+                width: 100%;
+                text-align: center;
+                 height: auto;
+                  padding-left: 30%;
+                
+            }
+              .contener{
+                width: 100%;
+                height: 200px;
+                background-color: rgb(43, 226, 125);
+                flex-direction: column;
+            }
+            .a{
+              height: 150px;
+              width: 100%;
+              text-align: center;
+              padding: 0px;
+            }
+            .ab{
+              height: 100px;
+              width: 100%;
+              text-align: center;
+              padding: 0px;
+            }
+        }
